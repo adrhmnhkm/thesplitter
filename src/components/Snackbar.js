@@ -9,7 +9,7 @@ const Snackbar = ({ show, message }) => {
       classNames="snackbar"
       unmountOnExit
     >
-      <div className="fixed bottom-4 right-4 bg-green-500 text-white p-3 rounded">
+      <div className="fixed bottom-4 right-4 bg-green-500 text-white p-3 rounded shadow-lg">
         {message}
       </div>
     </CSSTransition>
