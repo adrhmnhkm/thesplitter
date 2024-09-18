@@ -36,8 +36,8 @@ function App() {
   return (
     <div className="flex flex-col items-center min-h-screen bg-gray-50 text-gray-800 font-sans">
     <Navbar />
-    <div className="pt-16 w-full flex justify-center">
-      <div className="bg-white shadow-md rounded-lg p-8 w-full md:w-2/3 lg:w-1/2">
+    <div className="pt-32 w-full flex justify-center">
+      <div className="bg-white shadow-md rounded-lg p-8 w-full md:w-2/3 lg:w-1/3">
         <h1 className="text-3xl font-bold mb-6 text-center">Split Text Here!</h1>
         <TextArea setText={setText} />
         <div className="my-6 flex flex-col md:flex-row items-center">
